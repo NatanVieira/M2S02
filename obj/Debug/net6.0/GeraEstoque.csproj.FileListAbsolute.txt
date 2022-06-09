@@ -1,0 +1,15 @@
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\bin\Debug\net6.0\GeraEstoque.exe
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\bin\Debug\net6.0\GeraEstoque.deps.json
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\bin\Debug\net6.0\GeraEstoque.runtimeconfig.json
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\bin\Debug\net6.0\GeraEstoque.dll
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\bin\Debug\net6.0\GeraEstoque.pdb
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.csproj.AssemblyReference.cache
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.AssemblyInfoInputs.cache
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.AssemblyInfo.cs
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.csproj.CoreCompileInputs.cache
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.dll
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\refint\GeraEstoque.dll
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.pdb
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\GeraEstoque.genruntimeconfig.cache
+C:\Users\natanael.vieira\Desktop\DIH\2Semana\GeraEstoque\obj\Debug\net6.0\ref\GeraEstoque.dll
