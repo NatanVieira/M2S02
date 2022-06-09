@@ -16,7 +16,19 @@ namespace GeraEstoque {
             System.Console.WriteLine("0 - Sair");
 
             System.Console.WriteLine("Digite a opção:");
-            Console.ReadLine();
+            string? escolhaUsuario = Console.ReadLine();
+
+            switch(escolhaUsuario){
+                case "1":
+                    CadastrarProduto();
+                    break;
+                default:
+                    break;
+            }
+
+            void CadastrarProduto(){
+                System.Console.WriteLine("Cadastra Produto");    
+            }
         }
     }
 }
