@@ -12,24 +12,44 @@ namespace GeraEstoque {
             decimal? valorCompra = 0M;
             decimal? valorVenda = 0M;
 
-            System.Console.WriteLine("Seja Bem Vindo ao GeraEstoque 1.0");
-            System.Console.WriteLine("------------------------------------------");
+            Menu();
 
-            System.Console.WriteLine("1 - Cadastrar Produto");
-            System.Console.WriteLine("2 - Consultar Produto");
-            System.Console.WriteLine("3 - Modificar Produto");
-            System.Console.WriteLine("4 - Excluir Produto");
-            System.Console.WriteLine("0 - Sair");
+            void Menu()
+            {
+                Console.Clear();
+                System.Console.WriteLine("Seja Bem Vindo ao GeraEstoque 1.0");
+                System.Console.WriteLine("------------------------------------------");
 
-            System.Console.WriteLine("Digite a opção:");
-            string? escolhaUsuario = Console.ReadLine();
+                System.Console.WriteLine("1 - Cadastrar Produto");
+                System.Console.WriteLine("2 - Consultar Produto");
+                System.Console.WriteLine("3 - Modificar Produto");
+                System.Console.WriteLine("4 - Excluir Produto");
+                System.Console.WriteLine("0 - Sair");
 
-            switch(escolhaUsuario){
-                case "1":
-                    CadastrarProduto();
-                    break;
-                default:
-                    break;
+                System.Console.WriteLine("Digite a opção:");
+                string? escolhaUsuario = Console.ReadLine();
+
+                switch (escolhaUsuario)
+                {
+                    case "1":
+                        CadastrarProduto();
+                        break;
+                    case "2":
+                        Menu();
+                        break;
+                    case "3":
+                        Menu();
+                        break;
+                    case "4":
+                        Menu();
+                        break;
+                    case "0":
+                        break;
+                    default:
+                        Console.WriteLine("Opção não encontrada");
+                        Menu();
+                        break;
+                }
             }
 
             void CadastrarProduto(){
@@ -48,6 +68,10 @@ namespace GeraEstoque {
                 Console.WriteLine("Qtd: {0}", qtdEstoque);
                 Console.WriteLine($"R$ Compra: {valorCompra.ToString()}");
                 Console.WriteLine($"R$ Venda: {valorVenda}");
+                Console.WriteLine("Pressione Qualquer tecla para voltar ao menu");
+                string? voltaMenu = Console.ReadLine();
+                if (voltaMenu != null && voltaMenu != "")
+                    Menu();
             }
         }
     }
